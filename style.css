@@ -1,0 +1,63 @@
+header{
+    height: 215px;
+    background: #32353A;
+}
+.navs{
+    position: sticky;
+    top: 30px;
+    /* position: -webkit-sticky; */
+    translate: (-50%,-50%);
+    /* left: 100px; */
+    z-index: 20;
+}
+nav{
+    margin: 0px 100px 0px 1000px;
+   
+}
+.nav{
+    background: #3A497B;
+    border-radius: 20px;
+    position: absolute;
+    top: -30px;
+    left: -50px;
+    right:px ; 
+    z-index: 5;
+    
+}
+.nav li a{
+    font-size: 12px;
+}
+main{
+    background: #272B30;
+}
+.card{
+    background: #272B30;
+    /* opacity: 0.5; */
+    filter: grayscale(0.7);
+    color: white;
+    transition: all 0.5s;
+}
+.card:hover{
+    filter: grayscale(0);
+    scale: 1.08;
+}
+.card-body p{
+    font-size: 14px;
+    color: white;
+}
+.modal{
+    z-index: 100;
+    background: #27282B;
+}
+.modal .header i{
+    cursor: pointer;
+}
+.act{
+    color: #0099CC !important;
+}
+.navbar ul li a{
+    transition: all 0.5s;
+}
+.navbar ul li a:hover{
+    color: #0099CC !important
+}
